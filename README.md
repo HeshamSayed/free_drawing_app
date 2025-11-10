@@ -69,31 +69,32 @@
 
 ### AdMob Setup
 
+**✅ AdMob App ID is already configured:** `ca-app-pub-6976864649919972~8450614936`
+
 The app currently uses **test Ad Unit IDs**. To use real ads in production:
 
-1. **Get AdMob App IDs**
-   - Create an account at [AdMob](https://admob.google.com/)
-   - Create a new app
-   - Note your App ID and Ad Unit IDs
+1. **Create Ad Units in AdMob**
+   - Login to your account at [AdMob](https://admob.google.com/)
+   - Your app should already be registered
+   - Create 3 ad units: Banner, Interstitial, Rewarded
+   - Note your Ad Unit IDs
 
-2. **Update Android Configuration**
+2. **App ID is Already Set** ✅
 
-   Edit `android/app/src/main/AndroidManifest.xml`:
+   Android configuration (`android/app/src/main/AndroidManifest.xml`):
    ```xml
    <meta-data
        android:name="com.google.android.gms.ads.APPLICATION_ID"
-       android:value="YOUR-ADMOB-APP-ID"/>
+       android:value="ca-app-pub-6976864649919972~8450614936"/>
    ```
 
-3. **Update iOS Configuration**
-
-   Edit `ios/Runner/Info.plist`:
+   iOS configuration (`ios/Runner/Info.plist`):
    ```xml
    <key>GADApplicationIdentifier</key>
-   <string>YOUR-ADMOB-APP-ID</string>
+   <string>ca-app-pub-6976864649919972~8450614936</string>
    ```
 
-4. **Update Ad Unit IDs**
+3. **Update Ad Unit IDs**
 
    Edit `lib/services/ads_service.dart` and replace test IDs:
    ```dart

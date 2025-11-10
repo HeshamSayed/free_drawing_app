@@ -22,37 +22,37 @@ That's it! The app will run with test ads.
 
 ## Production Setup
 
-### Step 1: AdMob Account Setup
+**✅ IMPORTANT: AdMob App ID is already configured!**
+- App ID: `ca-app-pub-6976864649919972~8450614936`
+- This is set in both Android and iOS configuration files
+- You only need to add your **Ad Unit IDs** (see Step 1 below)
 
-1. **Create AdMob Account**
+### Step 1: Create Ad Units in AdMob
+
+1. **Login to AdMob**
    - Go to https://admob.google.com
-   - Sign up/login with Google account
-   - Complete account setup
+   - Login with your Google account
+   - Your app should already be registered
 
-2. **Create App in AdMob**
-   - Click "Apps" → "Add App"
-   - Select platform (Android/iOS)
-   - Enter app details
-   - Note your **App ID**
-
-3. **Create Ad Units**
-   Create three ad units:
+2. **Create Ad Units**
+   Create three ad units for your app:
    - **Banner Ad** (320x50)
    - **Interstitial Ad** (Full screen)
    - **Rewarded Ad** (Full screen)
 
-   Note all **Ad Unit IDs**.
+   Note all **Ad Unit IDs** (format: ca-app-pub-XXXXXXXXXXXXXXXX/YYYYYYYYYY).
 
 ### Step 2: Configure Android
 
-1. **Update App ID**
+1. **App ID is Already Set** ✅
 
-   Edit `android/app/src/main/AndroidManifest.xml`:
+   The AdMob App ID is already configured in `android/app/src/main/AndroidManifest.xml`:
    ```xml
    <meta-data
        android:name="com.google.android.gms.ads.APPLICATION_ID"
-       android:value="ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY"/>
+       android:value="ca-app-pub-6976864649919972~8450614936"/>
    ```
+   No changes needed!
 
 2. **Update Package Name** (Optional)
 
@@ -81,13 +81,14 @@ That's it! The app will run with test ads.
 
 ### Step 3: Configure iOS
 
-1. **Update App ID**
+1. **App ID is Already Set** ✅
 
-   Edit `ios/Runner/Info.plist`:
+   The AdMob App ID is already configured in `ios/Runner/Info.plist`:
    ```xml
    <key>GADApplicationIdentifier</key>
-   <string>ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY</string>
+   <string>ca-app-pub-6976864649919972~8450614936</string>
    ```
+   No changes needed!
 
 2. **Open in Xcode**
    ```bash
