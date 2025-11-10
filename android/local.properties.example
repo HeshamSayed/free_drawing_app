@@ -1,0 +1,8 @@
+# This file should be copied to local.properties and updated with your local paths
+# DO NOT commit local.properties to version control
+
+# Flutter SDK path (update this to your Flutter SDK location)
+flutter.sdk=/path/to/flutter
+
+# Android SDK path (usually auto-detected by Android Studio)
+sdk.dir=/path/to/Android/sdk

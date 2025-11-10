@@ -1,0 +1,38 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cute Cat Coloring Page -->
+  <g stroke="black" stroke-width="3" fill="none">
+    <!-- Head -->
+    <circle cx="200" cy="200" r="80"/>
+
+    <!-- Left Ear -->
+    <path d="M 150 150 L 130 100 L 170 130 Z"/>
+
+    <!-- Right Ear -->
+    <path d="M 250 150 L 270 100 L 230 130 Z"/>
+
+    <!-- Left Eye -->
+    <circle cx="180" cy="190" r="12"/>
+    <circle cx="180" cy="190" r="5" fill="black"/>
+
+    <!-- Right Eye -->
+    <circle cx="220" cy="190" r="12"/>
+    <circle cx="220" cy="190" r="5" fill="black"/>
+
+    <!-- Nose -->
+    <path d="M 200 210 L 195 220 L 205 220 Z" fill="black"/>
+
+    <!-- Mouth -->
+    <path d="M 200 220 Q 190 230 180 225"/>
+    <path d="M 200 220 Q 210 230 220 225"/>
+
+    <!-- Whiskers Left -->
+    <line x1="140" y1="200" x2="100" y2="195"/>
+    <line x1="140" y1="210" x2="100" y2="210"/>
+    <line x1="140" y1="220" x2="100" y2="225"/>
+
+    <!-- Whiskers Right -->
+    <line x1="260" y1="200" x2="300" y2="195"/>
+    <line x1="260" y1="210" x2="300" y2="210"/>
+    <line x1="260" y1="220" x2="300" y2="225"/>
+  </g>
+</svg>

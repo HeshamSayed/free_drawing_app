@@ -1,0 +1,24 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Beautiful Flower Coloring Page -->
+  <g stroke="black" stroke-width="3" fill="none">
+    <!-- Center -->
+    <circle cx="200" cy="150" r="25"/>
+
+    <!-- Petals -->
+    <ellipse cx="200" cy="100" rx="20" ry="35"/>
+    <ellipse cx="240" cy="120" rx="20" ry="35" transform="rotate(45 240 120)"/>
+    <ellipse cx="250" cy="150" rx="20" ry="35" transform="rotate(90 250 150)"/>
+    <ellipse cx="240" cy="180" rx="20" ry="35" transform="rotate(135 240 180)"/>
+    <ellipse cx="200" cy="200" rx="20" ry="35"/>
+    <ellipse cx="160" cy="180" rx="20" ry="35" transform="rotate(-135 160 180)"/>
+    <ellipse cx="150" cy="150" rx="20" ry="35" transform="rotate(-90 150 150)"/>
+    <ellipse cx="160" cy="120" rx="20" ry="35" transform="rotate(-45 160 120)"/>
+
+    <!-- Stem -->
+    <line x1="200" y1="175" x2="200" y2="350"/>
+
+    <!-- Leaves -->
+    <ellipse cx="180" cy="250" rx="25" ry="15" transform="rotate(-30 180 250)"/>
+    <ellipse cx="220" cy="290" rx="25" ry="15" transform="rotate(30 220 290)"/>
+  </g>
+</svg>

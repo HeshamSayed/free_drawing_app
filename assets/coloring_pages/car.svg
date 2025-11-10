@@ -1,0 +1,29 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Racing Car Coloring Page -->
+  <g stroke="black" stroke-width="3" fill="none">
+    <!-- Car Body -->
+    <rect x="80" y="180" width="240" height="60" rx="5"/>
+
+    <!-- Car Top -->
+    <path d="M 120 180 L 140 140 L 260 140 L 280 180"/>
+
+    <!-- Windows -->
+    <rect x="145" y="145" width="45" h="30"/>
+    <rect x="210" y="145" width="45" height="30"/>
+
+    <!-- Front Wheel -->
+    <circle cx="130" cy="240" r="25"/>
+    <circle cx="130" cy="240" r="15"/>
+
+    <!-- Back Wheel -->
+    <circle cx="270" cy="240" r="25"/>
+    <circle cx="270" cy="240" r="15"/>
+
+    <!-- Headlight -->
+    <rect x="310" y="195" width="10" height="15" rx="2"/>
+
+    <!-- Details -->
+    <line x1="200" y1="140" x2="200" y2="180"/>
+    <line x1="80" y1="210" x2="320" y2="210"/>
+  </g>
+</svg>
