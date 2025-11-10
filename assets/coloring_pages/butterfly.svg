@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <!-- Simple butterfly coloring page -->
+  <g stroke="black" stroke-width="2" fill="none">
+    <!-- Left upper wing -->
+    <path d="M 150 150 Q 100 100 80 80 Q 60 60 70 40 Q 80 20 100 30 Q 120 40 130 60 Q 140 80 150 100 Z"/>
+
+    <!-- Left lower wing -->
+    <path d="M 150 150 Q 110 180 90 200 Q 70 220 60 240 Q 50 260 70 270 Q 90 280 110 260 Q 130 240 140 220 Q 145 200 150 180 Z"/>
+
+    <!-- Right upper wing -->
+    <path d="M 150 150 Q 200 100 220 80 Q 240 60 230 40 Q 220 20 200 30 Q 180 40 170 60 Q 160 80 150 100 Z"/>
+
+    <!-- Right lower wing -->
+    <path d="M 150 150 Q 190 180 210 200 Q 230 220 240 240 Q 250 260 230 270 Q 210 280 190 260 Q 170 240 160 220 Q 155 200 150 180 Z"/>
+
+    <!-- Body -->
+    <ellipse cx="150" cy="150" rx="8" ry="60"/>
+
+    <!-- Head -->
+    <circle cx="150" cy="95" r="12"/>
+
+    <!-- Antennae -->
+    <path d="M 145 90 Q 140 80 135 70"/>
+    <path d="M 155 90 Q 160 80 165 70"/>
+
+    <!-- Wing patterns - Left upper -->
+    <circle cx="110" cy="70" r="8"/>
+    <circle cx="100" cy="95" r="6"/>
+
+    <!-- Wing patterns - Left lower -->
+    <circle cx="100" cy="220" r="8"/>
+    <circle cx="110" cy="240" r="6"/>
+
+    <!-- Wing patterns - Right upper -->
+    <circle cx="190" cy="70" r="8"/>
+    <circle cx="200" cy="95" r="6"/>
+
+    <!-- Wing patterns - Right lower -->
+    <circle cx="200" cy="220" r="8"/>
+    <circle cx="190" cy="240" r="6"/>
+  </g>
+</svg>

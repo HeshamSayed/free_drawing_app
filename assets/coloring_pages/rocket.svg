@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <!-- Simple rocket coloring page -->
+  <g stroke="black" stroke-width="2" fill="none">
+    <!-- Rocket body -->
+    <rect x="120" y="120" width="60" height="100" rx="5"/>
+
+    <!-- Rocket nose cone -->
+    <path d="M 120 120 L 150 60 L 180 120 Z"/>
+
+    <!-- Window -->
+    <circle cx="150" cy="150" r="15"/>
+    <circle cx="150" cy="150" r="10"/>
+
+    <!-- Left fin -->
+    <path d="M 120 180 L 90 220 L 120 220 Z"/>
+
+    <!-- Right fin -->
+    <path d="M 180 180 L 210 220 L 180 220 Z"/>
+
+    <!-- Bottom detail -->
+    <rect x="125" y="210" width="50" height="10"/>
+
+    <!-- Flame left -->
+    <path d="M 130 220 L 125 240 L 135 230 L 130 250 L 140 235 L 135 260 L 130 220"/>
+
+    <!-- Flame center -->
+    <path d="M 145 220 L 140 245 L 150 235 L 145 260 L 155 240 L 150 270 L 145 220"/>
+
+    <!-- Flame right -->
+    <path d="M 170 220 L 165 240 L 175 230 L 170 250 L 180 235 L 175 260 L 170 220"/>
+
+    <!-- Rocket details/rivets -->
+    <circle cx="135" cy="185" r="3"/>
+    <circle cx="165" cy="185" r="3"/>
+    <circle cx="135" cy="200" r="3"/>
+    <circle cx="165" cy="200" r="3"/>
+
+    <!-- Stars around rocket -->
+    <path d="M 50 80 L 52 85 L 57 85 L 53 88 L 55 93 L 50 90 L 45 93 L 47 88 L 43 85 L 48 85 Z"/>
+    <path d="M 240 100 L 242 105 L 247 105 L 243 108 L 245 113 L 240 110 L 235 113 L 237 108 L 233 105 L 238 105 Z"/>
+    <path d="M 70 200 L 72 205 L 77 205 L 73 208 L 75 213 L 70 210 L 65 213 L 67 208 L 63 205 L 68 205 Z"/>
+    <path d="M 230 180 L 232 185 L 237 185 L 233 188 L 235 193 L 230 190 L 225 193 L 227 188 L 223 185 L 228 185 Z"/>
+
+    <!-- Small stars -->
+    <circle cx="90" cy="140" r="2"/>
+    <circle cx="210" cy="150" r="2"/>
+    <circle cx="100" cy="100" r="2"/>
+    <circle cx="220" cy="220" r="2"/>
+  </g>
+</svg>

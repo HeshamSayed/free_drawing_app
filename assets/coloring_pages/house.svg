@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <!-- Simple house coloring page -->
+  <g stroke="black" stroke-width="2" fill="none">
+    <!-- Main house body -->
+    <rect x="80" y="140" width="140" height="120"/>
+
+    <!-- Roof -->
+    <path d="M 60 140 L 150 80 L 240 140 Z"/>
+
+    <!-- Door -->
+    <rect x="130" y="200" width="40" height="60"/>
+
+    <!-- Door knob -->
+    <circle cx="160" cy="230" r="3"/>
+
+    <!-- Left window -->
+    <rect x="100" y="160" width="35" height="35"/>
+    <line x1="117.5" y1="160" x2="117.5" y2="195"/>
+    <line x1="100" y1="177.5" x2="135" y2="177.5"/>
+
+    <!-- Right window -->
+    <rect x="165" y="160" width="35" height="35"/>
+    <line x1="182.5" y1="160" x2="182.5" y2="195"/>
+    <line x1="165" y1="177.5" x2="200" y2="177.5"/>
+
+    <!-- Chimney -->
+    <rect x="180" y="100" width="25" height="40"/>
+
+    <!-- Chimney smoke -->
+    <path d="M 192 90 Q 188 80 192 70"/>
+    <path d="M 197 85 Q 201 75 197 65"/>
+
+    <!-- Ground -->
+    <line x1="30" y1="260" x2="270" y2="260"/>
+
+    <!-- Path to door -->
+    <path d="M 150 260 L 150 200"/>
+    <line x1="140" y1="260" x2="140" y2="220"/>
+    <line x1="160" y1="260" x2="160" y2="220"/>
+
+    <!-- Bush left -->
+    <circle cx="65" cy="250" r="15"/>
+    <circle cx="75" cy="245" r="12"/>
+    <circle cx="55" cy="245" r="12"/>
+
+    <!-- Bush right -->
+    <circle cx="235" cy="250" r="15"/>
+    <circle cx="225" cy="245" r="12"/>
+    <circle cx="245" cy="245" r="12"/>
+  </g>
+</svg>

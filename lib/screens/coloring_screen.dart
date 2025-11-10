@@ -12,8 +12,9 @@ class ColoringScreen extends StatefulWidget {
 }
 
 class _ColoringScreenState extends State<ColoringScreen> {
-  // Predefined coloring pages
+  // Predefined coloring pages (all SVG files in assets/coloring_pages/)
   final List<ColoringPage> _coloringPages = [
+    // Free pages (unlocked by default)
     ColoringPage(
       id: 'cat',
       name: 'Cute Cat',
@@ -35,6 +36,7 @@ class _ColoringScreenState extends State<ColoringScreen> {
       isLocked: false,
       icon: Icons.directions_car,
     ),
+    // Premium pages (unlock with ads or premium)
     ColoringPage(
       id: 'house',
       name: 'Dream House',
@@ -58,17 +60,24 @@ class _ColoringScreenState extends State<ColoringScreen> {
     ),
     ColoringPage(
       id: 'butterfly',
-      name: 'Butterfly',
+      name: 'Beautiful Butterfly',
       description: 'A colorful butterfly',
       isLocked: true,
       icon: Icons.flutter_dash,
     ),
     ColoringPage(
-      id: 'star',
-      name: 'Shining Star',
-      description: 'A bright twinkling star',
+      id: 'rocket',
+      name: 'Space Rocket',
+      description: 'A rocket flying to the stars',
       isLocked: true,
-      icon: Icons.star,
+      icon: Icons.rocket_launch,
+    ),
+    ColoringPage(
+      id: 'fish',
+      name: 'Happy Fish',
+      description: 'A fish swimming in the ocean',
+      isLocked: true,
+      icon: Icons.phishing,
     ),
   ];
 

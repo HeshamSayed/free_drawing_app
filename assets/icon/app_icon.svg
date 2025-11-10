@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- ArtJoy App Icon - Colorful Brush with Paint -->
+
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6C63FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5A52D5;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="brush-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect width="1024" height="1024" rx="180" fill="url(#bg-gradient)"/>
+
+  <!-- Paint palette -->
+  <ellipse cx="450" cy="550" rx="280" ry="240" fill="#FFFFFF" opacity="0.95"/>
+
+  <!-- Palette thumb hole -->
+  <ellipse cx="350" cy="720" rx="60" ry="50" fill="url(#bg-gradient)"/>
+
+  <!-- Paint colors on palette -->
+  <!-- Red -->
+  <circle cx="520" cy="480" r="45" fill="#FF6B6B"/>
+  <circle cx="520" cy="480" r="45" fill="#FF6B6B" opacity="0.3"/>
+
+  <!-- Yellow -->
+  <circle cx="620" cy="500" r="45" fill="#FFE66D"/>
+  <circle cx="620" cy="500" r="45" fill="#FFE66D" opacity="0.3"/>
+
+  <!-- Blue -->
+  <circle cx="480" cy="600" r="45" fill="#4ECDC4"/>
+  <circle cx="480" cy="600" r="45" fill="#4ECDC4" opacity="0.3"/>
+
+  <!-- Green -->
+  <circle cx="600" cy="620" r="45" fill="#95E1D3"/>
+  <circle cx="600" cy="620" r="45" fill="#95E1D3" opacity="0.3"/>
+
+  <!-- Purple -->
+  <circle cx="540" cy="560" r="40" fill="#C88CFF"/>
+  <circle cx="540" cy="560" r="40" fill="#C88CFF" opacity="0.3"/>
+
+  <!-- Paintbrush -->
+  <!-- Brush handle -->
+  <g transform="rotate(-25 650 400)">
+    <!-- Wooden handle -->
+    <rect x="600" y="250" width="35" height="280" rx="5" fill="url(#brush-gradient)" stroke="#8B5A00" stroke-width="3"/>
+
+    <!-- Handle details -->
+    <line x1="605" y1="300" x2="630" y2="300" stroke="#6B4500" stroke-width="2"/>
+    <line x1="605" y1="400" x2="630" y2="400" stroke="#6B4500" stroke-width="2"/>
+    <line x1="605" y1="450" x2="630" y2="450" stroke="#6B4500" stroke-width="2"/>
+
+    <!-- Metal ferrule -->
+    <rect x="598" y="520" width="39" height="30" fill="#C0C0C0" stroke="#808080" stroke-width="2"/>
+
+    <!-- Brush bristles -->
+    <path d="M 600 550 L 595 600 L 600 630 L 610 635 L 617 635 L 627 630 L 632 600 L 637 550 Z"
+          fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+
+    <!-- Bristle details -->
+    <line x1="610" y1="555" x2="607" y2="625" stroke="#CCCCCC" stroke-width="1.5"/>
+    <line x1="617" y1="555" x2="615" y2="625" stroke="#CCCCCC" stroke-width="1.5"/>
+    <line x1="624" y1="555" x2="623" y2="625" stroke="#CCCCCC" stroke-width="1.5"/>
+
+    <!-- Paint on brush tip -->
+    <ellipse cx="612" cy="633" rx="12" ry="8" fill="#FF6B6B" opacity="0.8"/>
+  </g>
+
+  <!-- Sparkles/stars around the icon -->
+  <g fill="#FFFFFF" opacity="0.9">
+    <!-- Large sparkle top left -->
+    <path d="M 200 200 L 210 220 L 230 210 L 210 230 L 230 250 L 200 240 L 170 250 L 190 230 L 170 210 L 190 220 Z"/>
+
+    <!-- Medium sparkle top right -->
+    <path d="M 820 250 L 826 262 L 838 256 L 826 268 L 838 280 L 820 274 L 802 280 L 814 268 L 802 256 L 814 262 Z"/>
+
+    <!-- Small sparkle bottom right -->
+    <circle cx="850" cy="750" r="8"/>
+    <circle cx="850" cy="750" r="4" fill="url(#bg-gradient)"/>
+
+    <!-- Small sparkle bottom left -->
+    <circle cx="180" cy="800" r="6"/>
+    <circle cx="180" cy="800" r="3" fill="url(#bg-gradient)"/>
+
+    <!-- Tiny sparkles -->
+    <circle cx="300" cy="350" r="5"/>
+    <circle cx="750" cy="550" r="5"/>
+    <circle cx="250" cy="650" r="4"/>
+  </g>
+
+  <!-- Paint drop/splash -->
+  <g opacity="0.8">
+    <path d="M 720 680 Q 710 650 720 620 Q 730 650 720 680 Q 715 695 720 700 Q 725 695 720 680"
+          fill="#FF6584" stroke="#CC3366" stroke-width="2"/>
+    <circle cx="720" cy="702" r="8" fill="#FF6584" stroke="#CC3366" stroke-width="2"/>
+  </g>
+</svg>
