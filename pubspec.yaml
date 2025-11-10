@@ -25,6 +25,7 @@ dependencies:
   rive: ^0.12.4
   lottie: ^3.0.0
   flutter_colorpicker: ^1.0.3
+  flutter_svg: ^2.0.9
 
   # Image Handling
   image_gallery_saver: ^2.0.3
@@ -39,6 +40,12 @@ dependencies:
   intl: ^0.19.0
   share_plus: ^7.2.1
   shared_preferences: ^2.2.2
+  url_launcher: ^6.2.2
+  package_info_plus: ^5.0.1
+  http: ^1.1.0
+
+  # In-App Purchases
+  in_app_purchase: ^3.1.11
 
   # Icons
   cupertino_icons: ^1.0.6
