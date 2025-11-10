@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../services/settings_service.dart';
 import '../services/database_service.dart';
+import '../services/achievement_service.dart';
+import 'achievements_screen.dart';
+import 'daily_challenge_screen.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
@@ -109,6 +112,41 @@ class SettingsScreen extends StatelessWidget {
                     ),
                   ),
                 ],
+              );
+            },
+          ),
+
+          const Divider(),
+
+          // Features Section
+          _buildSectionHeader('Features'),
+          ListTile(
+            leading: const Icon(Icons.emoji_events),
+            title: const Text('Achievements'),
+            subtitle: Consumer<AchievementService>(
+              builder: (context, achievementService, _) {
+                final unlocked = achievementService.unlockedCount;
+                final total = achievementService.totalAchievements;
+                return Text('$unlocked / $total unlocked');
+              },
+            ),
+            trailing: const Icon(Icons.arrow_forward_ios),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const AchievementsScreen()),
+              );
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.today),
+            title: const Text('Daily Challenge'),
+            subtitle: const Text('New challenge every day!'),
+            trailing: const Icon(Icons.arrow_forward_ios),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const DailyChallengeScreen()),
               );
             },
           ),

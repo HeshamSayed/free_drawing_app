@@ -5,10 +5,14 @@ import '../services/database_service.dart';
 import '../services/settings_service.dart';
 import '../services/ads_service.dart';
 import '../services/audio_service.dart';
+import '../services/achievement_service.dart';
+import '../services/daily_challenge_service.dart';
 import 'drawing_screen.dart';
 import 'gallery_screen.dart';
 import 'settings_screen.dart';
 import 'coloring_screen.dart';
+import 'achievements_screen.dart';
+import 'daily_challenge_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -261,9 +265,45 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
             const SizedBox(width: 12),
             Expanded(
               child: _ActionCard(
+                icon: Icons.emoji_events,
+                title: 'Achievements',
+                color: const Color(0xFF4CAF50),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => const AchievementsScreen(),
+                    ),
+                  );
+                },
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 12),
+        Row(
+          children: [
+            Expanded(
+              child: _ActionCard(
+                icon: Icons.today,
+                title: 'Daily Challenge',
+                color: const Color(0xFF9C27B0),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => const DailyChallengeScreen(),
+                    ),
+                  );
+                },
+              ),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: _ActionCard(
                 icon: Icons.stars,
                 title: 'Premium',
-                color: const Color(0xFF4CAF50),
+                color: const Color(0xFFFF9800),
                 onTap: () {
                   _showPremiumDialog();
                 },
