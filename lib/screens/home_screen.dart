@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import '../services/database_service.dart';
 import '../services/settings_service.dart';
 import '../services/ads_service.dart';
@@ -456,20 +457,3 @@ class _ActionCard extends StatelessWidget {
   }
 }
 
-// AdWidget placeholder (imported from google_mobile_ads)
-class AdWidget extends StatelessWidget {
-  final dynamic ad;
-
-  const AdWidget({super.key, required this.ad});
-
-  @override
-  Widget build(BuildContext context) {
-    // This would be the actual AdWidget from google_mobile_ads
-    return Container(
-      color: Colors.grey.shade300,
-      child: const Center(
-        child: Text('Ad Space', style: TextStyle(fontSize: 12)),
-      ),
-    );
-  }
-}
